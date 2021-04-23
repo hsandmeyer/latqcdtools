@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
-from test_tools import *
 import sys
+sys.path.append("..")
+from test_tools import *
 from latqcdtools.fitting import *
 from latqcdtools.readin import *
 from latqcdtools.tools import *
@@ -8,7 +9,6 @@ import numpy as np
 #import pylib.ad.admath as adm
 import latqcdtools.tools as tools
 from latqcdtools.plotting import *
-sys.path.append("..")
 
 
 def simple(x, a):
