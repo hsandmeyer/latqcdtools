@@ -15,7 +15,7 @@ Additionally you have to define the environment variable PYTHONPATH containing t
 to the root folder of this project.
 e.g. put
 
-export PYTHONPATH="${PYTHONPATH}:/path/to/your/latqcdtools/"
+`export PYTHONPATH="${PYTHONPATH}:/path/to/your/latqcdtools/"`
 
 into your .bashrc.
 
